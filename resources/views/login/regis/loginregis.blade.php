@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Glassmorphism Register</title>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="{{ asset('styleregis.css') }}">
 </head>
 <body>
 <section class="container">
@@ -28,6 +28,6 @@
     </div>
     <div class="theme-btn-container"></div>
 </section>
-<script src="./script.js"></script>
+<script src="{{ asset('scriptregis.js') }}"></script>
 </body>
 </html>

@@ -1,13 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>CodePen - Glassmorphism Login</title>
-  <link rel="stylesheet" href="./style.css">
-
+    <meta charset="UTF-8">
+    <title>Glassmorphism Login</title>
+    <link rel="stylesheet" href="{{ asset('style.css') }}">
 </head>
-<body>
-<!-- partial:index.partial.html -->
 <body>
     <section class="container">
         <div class="login-container">
@@ -29,9 +26,7 @@
         </div>
         <div class="theme-btn-container"></div>
     </section>
-</body>
-<!-- partial -->
-  <script  src="./script.js"></script>
 
+    <script src="{{ asset('script.js') }}"></script>
 </body>
 </html>

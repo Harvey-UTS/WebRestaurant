@@ -22,7 +22,7 @@
             overflow: hidden;
             width: 100%;
             height: 250px;
-            background-image: url('./img/Encabezado.jpg');
+            background-image: url('{{ asset('img/Encabezado.jpg') }}');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;

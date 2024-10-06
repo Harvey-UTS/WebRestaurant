@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Glassmorphism Forgot Password</title>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="{{ asset('styleolvi.css') }}">
 </head>
 <body>
 <section class="container">
@@ -25,6 +25,6 @@
     </div>
     <div class="theme-btn-container"></div>
 </section>
-<script src="./script.js"></script>
+<script src="{{ asset('scriptolvi.js') }}"></script>
 </body>
 </html>
